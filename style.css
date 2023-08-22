@@ -244,6 +244,25 @@ nav .navigations{
     color: black;
 
 }
+
+
+/* Client Section */
+.clients{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    align-items: center;
+}
+
+.clients img{
+    width: 150px;
+    transition: 0.2s ease;
+    filter: grayscale(1);
+}
+.clients img:hover{
+    filter: grayscale(0);
+}
+
 /* Add this media query for responsiveness */
 @media (max-width: 878px) {
     nav {
@@ -340,25 +359,25 @@ nav .navigations{
     }
 
     .video-details h3 {
-        font-size: 22px;
+        font-size: 15px;
         margin-top: 14px;
     }
     .video-details h2 {
-        font-size: 33px;
+        font-size: 25px;
         font-weight: 700;
     }
 
     .video-details p {
-        font-size: 22px;
+        font-size: 17px;
         margin-top: 9px;
     }
 
     .click-button {
-        height: 61px;
+        height: 42px;
     }
 
     .click-button a {
-        font-size: 22px;
+        font-size: 17px;
         margin-top: 15px;
     }
 }
